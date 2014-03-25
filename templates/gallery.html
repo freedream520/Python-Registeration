@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container marketing">
+
+        {% if galleries %}
+            {% for gallery in galleries  %}
+                <img src="{{ gallery.img.url }}" class="col-md-6" />
+            {% endfor %}
+        {% endif %}
+
+    </div>
+    <br/>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <div class="col-md-8">
+    <h3>Contact</h3>
+    
+    {% if success %}
+    
+        <h5>Thanks for your contacting us, your message sent</h5>
+        <p>{{ name }}</p>
+        <p>{{ email }}</p>
+
+        <p>{{ message }}</p>
+        
+    {% else %}
+    
+        <form action="" method="POST" class="form"> {% csrf_token %}
+
+                {{ contact_form|crispy }}
+
+                <input type="submit" value="Send" class="btn-success pull-right">
+                <input type="reset" value="Reset" class="btn-success pull-right">
+
+        </form>
+        
+    {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+      <!-- Three columns of text below the carousel -->
+
+{% block content %}
+    <div class="row featurette">
+        <div class="col-md-7">
+        {% if abouts %}
+            {% for about in abouts %}
+
+                <h3><a href="/about/{{about.id}}">{{ about.title }}</a></h3>
+                    <img src="{{ about.images.url }}" class="col-md-4 pull-right" /> {{ images }}
+
+                <p>{{ about.text }}</p>
+
+            {% endfor %}
+        {% endif %}
+        </div>
+    </div>
+{% endblock %}
+
+

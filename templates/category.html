@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for post in posts %}
+        <h3>{{ post.created|date:"Y-m-d" }}: <a href="/post/{{post.id}}">{{ post.title }}</a></h3>
+
+    {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,41 @@
+[
+{
+    "pk": 1, 
+    "model": "blog.post", 
+    "fields": {
+        "body": "Pyramid is a very general open source Python web framework. As a framework, its primary job is to make it easier for a developer to create an arbitrary web application. The type of application being created isn\u2019t really important; it could be a spreadsheet, a corporate intranet, or a social networking platform. Pyramid is general enough that it can be used in a wide variety of circumstances.\r\n\r\nHere's a very simple example of a Pyramid application.", 
+        "updated": "2014-03-18", 
+        "created": "2014-03-18T13:12:04.501Z", 
+        "title": "PHP", 
+        "likes": 0, 
+        "published": true, 
+        "thumbnail": "uploaded_files/1395148324-5_php.jpg"
+    }
+},
+{
+    "pk": 2, 
+    "model": "blog.post", 
+    "fields": {
+        "body": "Pyramid is a very general open source Python web framework. As a framework, its primary job is to make it easier for a developer to create an arbitrary web application. The type of application being created isn\u2019t really important; it could be a spreadsheet, a corporate intranet, or a social networking platform. Pyramid is general enough that it can be used in a wide variety of circumstances.\r\n\r\nHere's a very simple example of a Pyramid application.", 
+        "updated": "2014-03-18", 
+        "created": "2014-03-18T13:12:27.086Z", 
+        "title": "Python", 
+        "likes": 0, 
+        "published": true, 
+        "thumbnail": "uploaded_files/1395148347-09_python.png"
+    }
+},
+{
+    "pk": 3, 
+    "model": "blog.post", 
+    "fields": {
+        "body": "Pyramid is a very general open source Python web framework. As a framework, its primary job is to make it easier for a developer to create an arbitrary web application. The type of application being created isn\u2019t really important; it could be a spreadsheet, a corporate intranet, or a social networking platform. Pyramid is general enough that it can be used in a wide variety of circumstances.\r\n\r\nHere's a very simple example of a Pyramid application.", 
+        "updated": "2014-03-18", 
+        "created": "2014-03-18T14:30:38.594Z", 
+        "title": "Facebook", 
+        "likes": 0, 
+        "published": true, 
+        "thumbnail": "uploaded_files/1395153038-59_facebook.jpg"
+    }
+}
+]
