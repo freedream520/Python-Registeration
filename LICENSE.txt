@@ -5,13 +5,16 @@ This file contains following:
 - Blog sending post to the page
 - Post include Upload image file
 - Bootstrap changing the layout and the design
+  + Crispy_forms
 - Login-out button
 - Search engine using AJAX
 - Contact form complete
 - Like button to current post
-- Category using Tag
+- Category using Taggit
 - Administration login
 - Gallery page
+- Django_toolbar
+- Data_migration
 
 This webpage created for training as interns purpes 
 
