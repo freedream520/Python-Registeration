@@ -1,0 +1,17 @@
+Copyright (c) 2014, Will Hardy
+All rights reserved.
+
+This file contains following:
+- Blog sending post to the page
+- Post include Upload image file
+- Bootstrap changing the layout and the design
+- Login-out button
+- Search engine using AJAX
+- Contact form complete
+- Like button to current post
+- Category using Tag
+- Administration login
+- Gallery page
+
+This webpage created for training as interns purpes 
+
